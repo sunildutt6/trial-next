@@ -1,7 +1,11 @@
-export default function HomePage() {
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+
+export default function Home() {
   return (
-    <div>
-      <h1>HomePage</h1>
+    <div className={styles.container}>
+      <h1>Home page</h1>
     </div>
   );
 }
